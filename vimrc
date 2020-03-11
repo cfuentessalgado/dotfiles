@@ -76,3 +76,5 @@ set omnifunc=syntaxcomplete#Complete
 nmap <Leader>es :e ~/.vim/snippets/
 imap <tab> <Plug>snipMateNextOrTrigger
 
+autocmd FileType html setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+autocmd FileType blade setlocal tabstop=2 shiftwidth=2 softtabstop=2 expandtab
