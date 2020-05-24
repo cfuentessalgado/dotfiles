@@ -1,1 +1,2 @@
-GuiFont! JetBrains Mono:h12
+" GuiFont JetBrains Mono:h14
+GuiFont Menlo:h14

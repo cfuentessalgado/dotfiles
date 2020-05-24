@@ -1,0 +1,129 @@
+{
+    "terminal.integrated.fontSize": 17,
+    "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
+    "editor.renderControlCharacters": false,
+    "workbench.activityBar.visible": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "none",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.folding": false,
+    "editor.codeLens": false,
+    "editor.occurrencesHighlight": false,
+    "editor.matchBrackets": "never",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.glyphMargin": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabCloseButton": "off",
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": false,
+    "editor.fontFamily": "'JetBrains Mono','Operator Mono','Menlo','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 45,
+    "window.zoomLevel": 0,
+    "editor.quickSuggestionsDelay": 0,
+    "editor.formatOnPaste": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.settings.editor": "json",
+    "editor.semanticHighlighting.enabled": false,
+    // extensions
+    "intelephense.completionProvider.backslashPrefix": false,
+    "php.suggest.basic": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "emmet.includeLanguages": {
+        "blade.php": "html",
+        "vue": "html"
+    },
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php",
+        ".php": "php",
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        // Hide everything in /public, except "index.php"
+        "**/public/[abcdefghjklmnopqrstuvwxyz]*": true,
+        "**/public/i[abcdefghijklmopqrstuvwxyz]*": true,
+        // Hide everything in /vendor, except "laravel" folder.
+        "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
+        "storage/framework/views": true
+    },
+    "vscode_custom_css.imports": [
+        "file:///home/cfuentes/.vscode/hide-title-bar.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "window.title": "${activeEditorMedium}${separator}${rootName} ${dirty}",
+    "emmet.triggerExpansionOnTab": true, // enable tab to expanse emmet tags
+    "blade.format.enable": true,         // if you would like to enable blade format
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "[html]": {
+        "editor.tabSize": 2,
+    },
+    "[vue]": {
+        "editor.tabSize": 2,
+    },
+    "[blade]": {
+        "editor.tabSize": 2,
+    },
+    "[YAML]": {
+        "editor.tabSize": 2,
+    },
+    "latex-workshop.chktex.run": "onSave",
+    "latex-workshop.latex.recipe.default": "first",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "latexmk (lualatex)",
+            "tools": [
+                "lualatexmk"
+            ]
+        },
+        {
+            "name": "latexmk 🔃",
+            "tools": [
+                "latexmk"
+            ]
+        },
+        {
+            "name": "latexmk (latexmkrc)",
+            "tools": [
+                "latexmk_rconly"
+            ]
+        },
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex × 2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "Compile Rnw files",
+            "tools": [
+                "rnw2pdf"
+            ]
+        }
+    ],
+    "cSpell.enableFiletypes": [
+        "!blade",
+        "!html",
+        "!php",
+        "latex"
+    ],
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "window.menuBarVisibility": "toggle",
+    "php-cs-fixer.executable": "/home/cfuentes/bin/php-cs-fixer",
+    "php-cs-fixer.onSave": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+}
